@@ -1,0 +1,18 @@
+#' @title jsonToDataframe
+#' @description This function returns a dataframe from a json file stored on AWS S3.
+#' @param s3URL This is the S3 URL to the json file.
+#' @return A dataframe made from json. If the json is invalid, it prints an error message and returns the json string for debugging or other exploration.
+
+jsonToDataframe <- function(s3URL) {
+  json.string <-
+    rawToChar(aws.s3::get_object(s3URL, url_style = "virtual"))
+  isvalid <-
+    sapply(json.string, jsonlite::validate, USE.NAMES = FALSE)
+  if (isvalid) {
+    return(fromjson(json.string))
+  }
+  else {
+    print("Invalid json. Please check returned object to debug.")
+    return(json.string)
+  }
+}

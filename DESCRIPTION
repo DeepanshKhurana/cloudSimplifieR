@@ -1,0 +1,13 @@
+Package: cloudSimplifieR
+Type: Package
+Title: Provides Easier Functions To Fetch Data From Amazon AWS
+Version: 0.1.0
+Author: Deepansh Khurana
+Maintainer: Deepansh Khurana <deepanshkhurana@outlook.com>
+Description: This package provides simple helper functions to fetch and read data from various formats stored on Amazon AWS S3 Buckets. Most functions are essentially wrapping over cloudyR.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports:
+  awspack, rjson
+RoxygenNote: 6.1.1
