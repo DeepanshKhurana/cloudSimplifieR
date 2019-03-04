@@ -8,6 +8,8 @@ Description: This package provides simple helper functions to fetch and read dat
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Depends:
+  awspack, rjson
 Imports:
   awspack, rjson
 RoxygenNote: 6.1.1
