@@ -9,7 +9,7 @@ jsonToDataframe <- function(s3URL) {
   isvalid <-
     sapply(json.string, jsonlite::validate, USE.NAMES = FALSE)
   if (isvalid) {
-    return(fromjson(json.string))
+    return(jsonlite::fromJSON(json.string))
   }
   else {
     print("Invalid json. Please check returned object to debug.")

@@ -5,7 +5,7 @@
 
 getFilenames <- function(bucket) {
   filenames <- NULL
-  bucket.list <- get_bucket(bucket)
+  bucket.list <- aws.s3::get_bucket(bucket)
   for (file in bucket.list) {
     filenames <- c(filenames, file$Key)
   }
