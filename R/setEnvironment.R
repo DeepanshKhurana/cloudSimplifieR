@@ -1,5 +1,5 @@
 #' @title setEnvironment
-#' @description This function sets the environmnet variables for the AWS environment
+#' @description This function sets the environment variables for the AWS environment
 #' @param key This goes into the AWS_ACCESS_KEY_ID
 #' @param secret This goes into the AWS_SECRET_ACCESS_KEY
 #' @param region This goes into the AWS_DEFAULT_REGION
