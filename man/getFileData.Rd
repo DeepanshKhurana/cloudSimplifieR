@@ -7,7 +7,7 @@
 getFileData(filename, format, bucket)
 }
 \arguments{
-\item{filename}{This is the name of the file.}
+\item{filename}{This is the name of the file with extension.}
 
 \item{format}{This is the format of the file. Currently supports: .csv, .json}
 

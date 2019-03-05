@@ -1,6 +1,6 @@
 #' @title getFileData
 #' @description This function returns a dataframe from a file stored on an AWS S3 Bucket.
-#' @param filename This is the name of the file.
+#' @param filename This is the name of the file with extension.
 #' @param format This is the format of the file. Currently supports: .csv, .json
 #' @param bucket This is the name of the S3 Bucket.
 #' @return A dataframe
