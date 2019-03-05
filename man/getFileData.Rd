@@ -19,3 +19,6 @@ A dataframe
 \description{
 This function returns a dataframe from a file stored on an AWS S3 Bucket.
 }
+\examples{
+getFileData("Global Superstore.csv", "csv", "cloudsimplifier-examples")
+}

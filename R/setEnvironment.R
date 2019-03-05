@@ -3,7 +3,7 @@
 #' @param key This goes into the AWS_ACCESS_KEY_ID
 #' @param secret This goes into the AWS_SECRET_ACCESS_KEY
 #' @param region This goes into the AWS_DEFAULT_REGION
-#' @example setEnvironment("xxxxxxxx", "xxxxx/xxx", "ap-south-1")
+#' @examples setEnvironment("xxxxxxxx", "xxxxx/xxx", "ap-south-1")
 
 setEnvironment <- function(key, secret, region) {
   Sys.setenv(

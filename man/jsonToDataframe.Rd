@@ -15,3 +15,6 @@ A dataframe made from json. If the json is invalid, it prints an error message a
 \description{
 This function returns a dataframe from a json file stored on AWS S3.
 }
+\examples{
+jsonToDataframe("s3://cloudsimplifier-examples/Global Superstore.json")
+}

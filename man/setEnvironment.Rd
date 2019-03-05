@@ -16,3 +16,6 @@ setEnvironment(key, secret, region)
 \description{
 This function sets the environment variables for the AWS environment
 }
+\examples{
+setEnvironment("xxxxxxxx", "xxxxx/xxx", "ap-south-1")
+}
