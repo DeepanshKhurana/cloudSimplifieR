@@ -13,5 +13,5 @@ getFilenames(bucket)
 filenames A simple list of files in the S3 Bucket
 }
 \description{
-This function returns a list of filenames in a specified S3 Bucket
+This function returns a list of filenames in a specified S3 Bucket. This will not work until you set environment variables using "setEnvironment"
 }
