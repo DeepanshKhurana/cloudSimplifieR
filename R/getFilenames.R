@@ -2,6 +2,7 @@
 #' @description This function returns a list of filenames in a specified S3 Bucket
 #' @param bucket This is the bucketname from which to return files. This function assumes there is no hierarchy and won't dive into folders.
 #' @return  filenames A simple list of files in the S3 Bucket
+#' @example getFilenames("bucketname")
 
 getFilenames <- function(bucket) {
   filenames <- NULL

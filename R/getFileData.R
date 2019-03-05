@@ -4,6 +4,7 @@
 #' @param format This is the format of the file. Currently supports: .csv, .json
 #' @param bucket This is the name of the S3 Bucket.
 #' @return A dataframe
+#' @example getFileData()
 
 getFileData <- function(filename, format, bucket) {
   url <- paste("s3://", bucket, "/", filename, sep = "")
