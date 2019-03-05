@@ -4,7 +4,7 @@ This package provides simple helper functions to fetch and read data from variou
 - Get a list of filenames from an AWS bucket (`getFilenames`)
 - Get a dataframe from a .csv file using its S3 url (`csvToDataframe`)
 - Get a dataframe from a .json file using its S3 url (`jsonToDataframe`)
-- Get a dataframe directly without using an S3 url instead just using the filename, bucket, and format. This currently supports .csv and .json. It essentially wraps over csvToDataframe and jsonToDataframe conditionally. (`getFileData`)
+- Get a dataframe directly without using an S3 url instead just using the filename, bucket, and format. This currently supports .csv and .json. It essentially wraps over `csvToDataframe` and `jsonToDataframe` conditionally. (`getFileData`)
 
 ## Pre-requisite
 
