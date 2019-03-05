@@ -10,3 +10,6 @@ This package provides simple helper functions to fetch and read data from variou
 
 Before you use this library, make sure you set Environment Variables using the `setEnvironment` function. Please use `?setEnvironment` to check the inputs you'd need.
 
+## Requests/Feedbacks/Suggestions
+
+Please submit a pull request for any of these. Thank you!
