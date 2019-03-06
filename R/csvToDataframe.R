@@ -5,7 +5,5 @@
 #' @examples csvToDataframe("s3://cloudsimplifier-examples/Global Superstore.csv")
 
 csvToDataframe <- function(s3URL) {
-  csv.text <-
-    rawToChar(aws.s3::get_object(s3URL, url_style = "virtual", check_region = FALSE))
-  return(utils::read.csv(text = csv.text))
+  return(utils::read.csv(text = rawToChar(aws.s3::get_object(s3URL, url_style = "virtual", check_region = FALSE))))
 }

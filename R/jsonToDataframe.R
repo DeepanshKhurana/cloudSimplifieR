@@ -7,9 +7,7 @@
 jsonToDataframe <- function(s3URL) {
   json.string <-
     rawToChar(aws.s3::get_object(s3URL, url_style = "virtual", check_region = FALSE))
-  isvalid <-
-    sapply(json.string, jsonlite::validate, USE.NAMES = FALSE)
-  if (isvalid) {
+  if (sapply(json.string, jsonlite::validate, USE.NAMES = FALSE)) {
     return(jsonlite::fromJSON(json.string))
   }
   else {
