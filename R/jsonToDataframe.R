@@ -2,7 +2,7 @@
 #' @description This function returns a dataframe from a json file stored on AWS S3.
 #' @param s3URL This is the S3 URL to the json file.
 #' @return A dataframe made from json. If the json is invalid, it prints an error message and returns the json string for debugging or other exploration.
-#' @examples jsonToDataframe("s3://cloudsimplifier-examples/Global Superstore.json")
+#' @examples jsonToDataframe("s3://cloudsimplifier-examples/example.json")
 
 jsonToDataframe <- function(s3URL) {
   json.string <-

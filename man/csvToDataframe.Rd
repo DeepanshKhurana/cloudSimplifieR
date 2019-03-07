@@ -16,5 +16,5 @@ A dataframe made from .csv.
 This function returns a dataframe from a .csv file stored on AWS S3.
 }
 \examples{
-csvToDataframe("s3://cloudsimplifier-examples/Global Superstore.csv")
+csvToDataframe("s3://cloudsimplifier-examples/example.csv")
 }

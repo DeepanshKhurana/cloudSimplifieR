@@ -20,5 +20,5 @@ A dataframe
 This function returns a dataframe from a file stored on an AWS S3 Bucket.
 }
 \examples{
-getFileData("Global Superstore.csv", "csv", "cloudsimplifier-examples")
+getFileData("example.csv", "csv", "cloudsimplifier-examples")
 }
