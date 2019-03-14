@@ -1,4 +1,7 @@
 # cloudSimplifieR
+
+[![Rdoc](http://www.rdocumentation.org/badges/version/cloudSimplifieR)](http://www.rdocumentation.org/packages/cloudSimplifieR)
+ 
 This package provides simple helper functions to fetch and read data from various formats stored on Amazon AWS S3 Buckets. This uses cloudyR and offers direct functions to do the following:
 
 - Get a list of filenames from an AWS bucket (`getFilenames`)
