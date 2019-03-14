@@ -15,7 +15,7 @@ Before you use this library, make sure you set Environment Variables using the `
 
 ## Credits
 
-This package was developed while I was interning at [Townscript](https://www.townscript.com/)
+This package was developed while I was interning at [Townscript](https://www.townscript.com/) as a Data Engineering Intern.
 
 #### Requests/Feedback/Suggestions
 
